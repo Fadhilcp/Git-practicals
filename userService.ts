@@ -10,7 +10,7 @@ class userService {
     }
 
     get name(){
-        console.log('getting name..')
+        console.log('loading name..')
         return `Name is ${this.user?.name}`;
     }
 }
