@@ -8,4 +8,9 @@ class userService {
     constructor(user: User | null){
         this.user = user
     }
+
+    get name(){
+        return this.user?.name;
+    }
 }
+
