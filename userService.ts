@@ -12,7 +12,6 @@ class userService {
     get name(){
         setTimeout(() => {
             console.log('Loading...');
-            console.log('hello world');
         }, 2000);
         return `Name is ${this.user?.name}`;
     }
