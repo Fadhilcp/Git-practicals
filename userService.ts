@@ -9,4 +9,8 @@ class userService {
     constructor(user: User | null){
         this.user = user
     }
+
+    get email(){
+        return `Email is ${this.user?.email}`;
+    }
 }
