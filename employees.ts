@@ -48,4 +48,7 @@ function showNames(employees: { name: string; }[]){
     }
 }
 
+console.log('hello world');
+console.log('HELLO WORLD');
+
 showNames(employees);
