@@ -11,6 +11,7 @@ class userService {
     }
 
     get email(){
+        console.log('Loading...');
         return `Email is ${this.user?.email}`;
     }
     
