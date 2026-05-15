@@ -40,3 +40,19 @@ const employees = [
     active: true
   }
 ];
+
+function showNames(employees: { name: string; }[]){
+
+    for(let employee of employees){
+      console.log(employee.name)
+    }
+}
+
+function showdepartments(employees: { department: string;}[]){
+
+  for(let employee of employees){
+    console.log(employee.department)
+  }
+}
+
+showNames(employees);
