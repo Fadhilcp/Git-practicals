@@ -21,4 +21,8 @@ class userService {
         }, 2000);
         return `Name is ${this.user?.name}`;
     }
+
+    get role(){
+        return this.user?.role;
+    };
 }
