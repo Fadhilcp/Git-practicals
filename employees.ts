@@ -55,4 +55,16 @@ function showdepartments(employees: { department: string;}[]){
   }
 }
 
+function hightPaidEmployee(employees: { name: string, salary: number}[]){
+  let largest = 0;
+  let name = '';
+  for(let employee of employees){
+    if(employee.salary > largest){
+      largest = employee.salary;
+      name = employee.name;
+    }
+  }
+  return name;
+}
+
 showNames(employees);
